@@ -1,7 +1,7 @@
 {{ template "theme/partials/head.html" . }}
 <body>
 
-{{ template "theme/partials/sidebar.html" . }}
+{{ template "partials/sidebar.html" . }}
 
     <div class="content container">
 <div class="post">
@@ -10,6 +10,6 @@
       {{ .Content }}
 </div>
 </div>
-
+{{ template "partials/footer.html" . }}
   </body>
 </html>
